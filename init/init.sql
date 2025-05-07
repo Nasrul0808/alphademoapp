@@ -1,0 +1,7 @@
+USE dbdemo;
+
+CREATE TABLE IF NOT EXISTS user (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(100),
+  password VARCHAR(100)
+);
