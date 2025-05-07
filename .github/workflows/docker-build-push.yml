@@ -20,4 +20,4 @@ jobs:
       - name: Build and Push Docker Hub Image
         run: |
           docker build -t alphadapta/demo .         
-          docker push alphadapta/demo
+          docker push Nasrul0808/alphademoapp
